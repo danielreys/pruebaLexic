@@ -18,7 +18,7 @@ html,body {
 }
 
 .sec{
-    height: 580px;
+    height: 680px;
     width: auto;
     background-color: red;
 }
@@ -57,6 +57,26 @@ html,body {
 .card:not(:first-child) {
     margin-left: 10px;
 }
+
+#time{
+    display: flex;
+    flex-direction: row;
+}
+
+.time-card {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.time-card:not(:first-child) {
+    margin-left: 10px;
+}
+
 
 /* Section 1*/
 #sec1{
@@ -111,13 +131,13 @@ html,body {
 #sec2{
     background-color: #FFFFFF;
     display: flex;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #wrapperSec2{
     padding: 100px 500px 100px 500px;
+    height: 100%;
 }
 
 #sec2Info {
@@ -151,13 +171,39 @@ html,body {
     justify-content: center;
 }
 
+/* Section 3 */
 #sec3{
-    background-color: purple;
+    background-image: url("./assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
 }
 
+#wrapperSec3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(30%, -30%);
+        width: 500px;
+}
+
+#sec3Title {
+    color:white;
+    font-size: 60px;
+}
+
+#sec3Text {
+    clear: both;
+    line-height: 1.6;
+}
+
+.secondsQ {
+    font-size: 45px;
+    font-weight: 600;
+}
 /* Footer */
 .my-footer {
     bottom: 0;
     height: 200px;
-    background-color: gold;
+    background-color: #313035;
 }

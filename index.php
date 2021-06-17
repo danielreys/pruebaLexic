@@ -38,6 +38,7 @@
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>  
                     </div>
+
                     <hr style="width:80px; opacity: 0.3;">
                     <p class="bold">Lorem Ipsum Dolor: 12345678</p>
                     <p class="bold">Period: 1st of April 2019 - 28th of June 2019</p>
@@ -63,7 +64,37 @@
             </div>
         </div>
         <div id="sec3" class="sec">
-        
+            <div id="wrapperSec3"> 
+               <div id="sec3Title">
+                 Lexic Vivactis
+               </div> 
+               <hr style="width:40px; height: 3px; background-color: white; float:left;">
+               <div id="sec3Text">
+                   <p>
+                       <strong>Excepteur sint occaecat. </strong> <br>
+                       Duis aute irure uis aute irure uis aute irure uis aute irure uis aute irure uis aute irure uis aute irure. Duis aute irure uis aute irure uis aute irure uis aute irure uis aute irure uis aute irure uis aute irure. 
+                       Duis aute irure uis aute irure uis aute irure uis aute irure uis aute irure uis aute irure uis aute irure.
+                   </p>
+               </div>
+            <div id="time">
+               <div class="time-card">
+                  <div id="dayQ" class="secondsQ">00</div>
+                  <div>DAYS</div>
+               </div>
+               <div class="time-card">
+                  <div id="hoursQ" class="secondsQ">00</div>
+                  <div>HOURS</div>
+               </div>
+               <div class="time-card">
+                  <div id="minutesQ" class="secondsQ">00</div>
+                  <div>MINUTES</div>
+                </div>
+              <div class="time-card">
+                  <div id="secondsQ" class="secondsQ">00</div>
+                  <div>SECONDS</div>
+              </div>
+            </div>    
+            </div>
         </div>
         <div class="my-footer">
 
