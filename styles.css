@@ -13,6 +13,10 @@ html,body {
     margin:0;
 }
 
+p{
+    font-size: 20px;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -20,7 +24,6 @@ html,body {
 .sec{
     height: 680px;
     width: auto;
-    background-color: red;
 }
 
 .btnSubmit {
@@ -31,7 +34,7 @@ html,body {
     height: 50px;
     border: 0px;
     width: 224px;
-    margin-top: 15px;
+    margin-top: 25px;
     align-self: center;
     cursor: pointer;
 }
@@ -52,6 +55,8 @@ html,body {
     flex-direction: column;
     border: 1px solid #00BAF6;
     border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
 }
 
 .card:not(:first-child) {
@@ -137,7 +142,6 @@ html,body {
 
 #wrapperSec2{
     padding: 100px 500px 100px 500px;
-    height: 100%;
 }
 
 #sec2Info {
@@ -197,6 +201,10 @@ html,body {
     line-height: 1.6;
 }
 
+.showMobile {
+    display: none;
+}
+
 .secondsQ {
     font-size: 45px;
     font-weight: 600;
@@ -204,6 +212,119 @@ html,body {
 /* Footer */
 .my-footer {
     bottom: 0;
-    height: 200px;
     background-color: #313035;
+    color: white;
+}
+
+.info-footer {
+    padding: 5px;
+    text-align: center;
+}
+
+.phone-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 8px; 
+}
+
+.phone-number {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wrapAmount{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+/* Small devices */
+@media (max-width: 800px) {
+    #sec1 {
+        background-color: #CDCDCD;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'fjalla';
+        flex-direction: column;
+    }
+    #sec1Form {
+        padding-bottom: 70px;
+    }
+    .sec{
+        width: auto;
+        height: 100%;
+    }
+    .btnSubmit {
+        border-radius: 4px;
+        background-color: #F24405;
+        color: white;
+        font-size: 20px;
+        height: 32px;
+        border: 0px;
+        width: 224px;
+        align-self: center;
+        cursor: pointer;
+        margin-top: 12px;
+    }
+    #sec2 {
+        background-color: white;
+        padding: 12px;
+        word-break: break-all;
+        display: block; 
+        align-items: center; 
+        justify-content: center;
+        height: 125%;
+    }
+    #wrapperSec2 {
+        padding: 0px;
+    }
+
+    #sec2Info {
+        text-align: center;
+    }
+
+    #sec3 {
+        background-image: url("./assets/carMobile.png");
+        background-repeat: no-repeat;
+        position: relative;
+        height: 300px;
+        max-height: 700px;
+    }
+    
+    #sec3ExtraMobile{
+        background-color: #00C0E4;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: 100% 100%;
+        position: relative;
+        height: 500px;
+        padding: 12px;
+    }
+
+    #wrapperSec3 {
+        position: absolute;
+        top: unset;
+        left: unset;
+        transform: unset;
+        width: 500px;
+    }
+
+    #wrappForm {
+        height: 440px;
+    }
+    #time {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .isSmall {
+        display: none;
+    }
+
+    .showMobile {
+        display: flex;
+    }
 }
