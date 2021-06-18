@@ -24,10 +24,7 @@ $('.card').click(function () {
 });
 
 function setMultiplicar(id) {
-    console.log(id);
     let val = checkValues(id);
-    console.log(val['value']);
-    console.log(val['id']);
 
     if(firstTime){
         $('#'+ val['id']).text('');
